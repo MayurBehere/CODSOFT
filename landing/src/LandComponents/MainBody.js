@@ -11,7 +11,7 @@ const MainBody = () => {
     <div className='Main-Container'>
       <Navbar/>
     </div>
-    <div className='hero'>
+    <div >
       <Hero/>
     </div>
     <div>
