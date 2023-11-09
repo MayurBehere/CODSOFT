@@ -2,6 +2,8 @@ import React from 'react'
 import Navbar from './Navbar'
 import Hero from './Hero'
 import './MainBody.css'
+import Steps from './Steps'
+import Features from './Features'
 
 const MainBody = () => {
   return (
@@ -11,6 +13,12 @@ const MainBody = () => {
     </div>
     <div className='hero'>
       <Hero/>
+    </div>
+    <div>
+      <Features/>
+    </div>
+    <div>
+      <Steps/>
     </div>
   </>)
 }
