@@ -6,7 +6,7 @@ const Features = () => {
     return (
         
         <div className="text-center">
-            <h1 className="feature-text">Features</h1>
+            <h1 className="feature-text">Why Us?</h1>
             <div
                 className="row g-4 py-5 row-cols-1 row-cols-lg-3 mx-auto"
                 style={{ maxWidth: '1000px' }}
