@@ -18,7 +18,13 @@
     border-bottom: 2px solid #c309c6;
 }
 
+.container button {
+  background-color: white;
+  color: #c309c6;
+  border: 2px solid #c309c6;
+}
+
 .container button:hover {
-    background-color: rgb(255, 0, 242);
-    border-color: #c309c6;
-  }
+  background-color: rgb(255, 0, 242);
+  border-color: #c309c6;
+}
