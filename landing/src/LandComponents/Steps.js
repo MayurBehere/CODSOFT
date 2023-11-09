@@ -4,7 +4,7 @@ import './Steps.css'
 const Steps = () => {
     return (
         <div class="row">
-        <div class="col">
+        <div class="col" style={{borderBottom: '2px solid rgb(255,0,204)'}}>
             <div class="timeline-steps aos-init aos-animate" data-aos="fade-up">
                 <div class="timeline-step">
                     <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2003">

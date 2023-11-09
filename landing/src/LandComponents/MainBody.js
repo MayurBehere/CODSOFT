@@ -4,7 +4,7 @@ import Hero from './Hero'
 import './MainBody.css'
 import Steps from './Steps'
 import Features from './Features'
-
+import Footer from './footer' // Change the import name to uppercase
 const MainBody = () => {
   return (
     <>
@@ -19,6 +19,9 @@ const MainBody = () => {
     </div>
     <div>
       <Steps/>
+    </div>
+    <div>
+      <Footer/> 
     </div>
   </>)
 }
